@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         ipTextField.delegate = self
+        labelResetter()
     }
 
     @IBAction func getDetailsButtonPressed(_ sender: UIButton) {
@@ -44,6 +45,9 @@ class ViewController: UIViewController {
     }
     @IBAction func resetButtonPressed(_ sender: UIButton) {
         
+        labelResetter()
+    }
+    func labelResetter(){
         ipDisplayLabel.text = "-"
         cityDisplayLabel.text = "-"
         regionDisplayLabel.text = "-"
@@ -51,9 +55,7 @@ class ViewController: UIViewController {
         locationDisplayLabel.text = "-"
         postalCodeDisplayLabel.text = "-"
         timeZoneDisplayLabel.text = "-"
-        
     }
-   
     
 }
 //MARK: - text field delegates
