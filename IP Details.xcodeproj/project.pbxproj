@@ -17,6 +17,7 @@
 		0EB896E528CD45DC00E7979F /* IP_DetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB896E428CD45DC00E7979F /* IP_DetailsTests.swift */; };
 		0EB896EF28CD45DC00E7979F /* IP_DetailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB896EE28CD45DC00E7979F /* IP_DetailsUITests.swift */; };
 		0EB896F128CD45DC00E7979F /* IP_DetailsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB896F028CD45DC00E7979F /* IP_DetailsUITestsLaunchTests.swift */; };
+		0EB8970028CD4D2200E7979F /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB896FF28CD4D2200E7979F /* Details.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0EB896EA28CD45DC00E7979F /* IP DetailsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IP DetailsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB896EE28CD45DC00E7979F /* IP_DetailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP_DetailsUITests.swift; sourceTree = "<group>"; };
 		0EB896F028CD45DC00E7979F /* IP_DetailsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP_DetailsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0EB896FF28CD4D2200E7979F /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				0EB896D828CD45DC00E7979F /* LaunchScreen.storyboard */,
 				0EB896DB28CD45DC00E7979F /* Info.plist */,
 				0EB896D328CD45D900E7979F /* IP_Details.xcdatamodeld */,
+				0EB896FF28CD4D2200E7979F /* Details.swift */,
 			);
 			path = "IP Details";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				0EB896CF28CD45D900E7979F /* ViewController.swift in Sources */,
 				0EB896D528CD45D900E7979F /* IP_Details.xcdatamodeld in Sources */,
+				0EB8970028CD4D2200E7979F /* Details.swift in Sources */,
 				0EB896CB28CD45D900E7979F /* AppDelegate.swift in Sources */,
 				0EB896CD28CD45D900E7979F /* SceneDelegate.swift in Sources */,
 			);
