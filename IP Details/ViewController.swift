@@ -41,6 +41,7 @@ class ViewController: UIViewController {
                 }
         }
         ipTextField.text = ""
+        view.endEditing(true)
         
     }
     @IBAction func resetButtonPressed(_ sender: UIButton) {
